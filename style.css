@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-family: 'Bruno Ace SC', cursive;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+img{
+    vertical-align:middle;
+}
+.nav{
+    background-color: #000;
+    padding-top: 40px;
+}
+.nav-info{
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.fs-16{
+    font-size: 16px;
+}
+.nav-info li a{
+    color: #D1D1D1;
+    text-decoration: none;
+}
+.banner{
+    background-color: #000;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.myphoto{
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.fc-w{
+    color: #fff;
+}
+.fc-g{
+    color: #00FFA3;
+}
+.fs-64{
+    font-size: 64px;
+}
+.fs-128{
+    font-size: 128px;
+}
+.hello-text{
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+}
+.mr-24{
+    margin-right: 24px;
+}
+.hello-text a{
+    display: block;
+    width: 185px;
+    background-color: #FFFFFF;
+    color: #000;
+    text-align: center;
+    padding: 12px 24px 12px 24px;
+    border-radius: 32px;
+    text-decoration: none;
+}
+.as-end{
+    align-self: flex-end;
+}
+.intro{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+.myintro{
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.intro-text{
+    width: 526px;
+}
+.intro-photo{
+    display: flex;
+}
+.fs-24{
+    font-size: 24px;
+}
+.mb-36{
+    margin-bottom: 36px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.about{
+    width: 1296px;
+    display: flex;
+    margin: 0 auto;
+}
+.mycharact{
+    width: 636px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-text{
+    width: 526px;
+}
+.p-16{
+    padding: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fc-1d{
+    font-size: #15161D;
+}
+.mycharact li{
+    width: 306px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.fc-black{
+    color: #000;
+}
+.mr-134{
+    margin-right: 134px;
+}
+.pt-160{
+    padding-top: 160px;
+}
+.pb-160{
+    padding-bottom: 160px;
+}
+.contact-bg{
+    background: linear-gradient(#050014,#01021EE3);
+}
+.contact{
+    width: 1296px;
+    margin: 0 auto;
+    display: flex;
+}
+.contact-text{
+    display: flex;
+}
+.mr-16{
+    margin-right: 16px;
+}
+.contact-icon{
+    display: flex;
+}
+.mr-113{
+    margin-right: 113px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.rs-100{
+    display:block;
+    width: 100px;
+    height: 100px;
+}
+.pt-96{
+    padding-top: 96px;
+}
+.pb-96{
+    padding-bottom: 96px;
+}
+.as-center{
+    align-self: center;
+}
+.shadow:hover{
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.81);
+}
+.brd-40{
+    border-radius: 40px;
+}
+.myprojects{
+    display: flex;
+    flex-direction: column;
+    width: 1296px;
+    margin: 0 auto;
+}
+.proj-head{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.proj-head h2{
+    width: 746px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.proj-all{
+    display: flex;
+}
+.proj-rec15{
+    display: flex;
+}
+.proj-text a{
+    background: #000;
+    text-decoration: none;
+    display: block;
+    width: 185px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 32px;
+}
+.proj-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.proj-rec2914{
+    display: flex;
+    justify-content: space-between;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.footer{
+    background: #000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
